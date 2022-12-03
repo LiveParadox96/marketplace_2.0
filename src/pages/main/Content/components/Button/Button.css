@@ -1,0 +1,27 @@
+.CommonButton{
+    background-color: #ffcb9a;
+    border: 2px solid sandybrown;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: -webkit-fill-available;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+
+.CommonButton:hover{
+    background-color: rgba(black, 0.7);
+
+}
+
+.New_Content{
+    display: flex;
+    flex-direction: column;
+    /* backdrop-filter: blur(100em); */
+    background-color: #ffcb9a;
+    margin: auto;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center
+}

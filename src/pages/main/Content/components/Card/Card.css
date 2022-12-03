@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+.Card{
+    width: 200px;
+    box-shadow: 1px 1px 10px 4px #ccc;
+    border-radius: 15px;
+    overflow: hidden;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.Card-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #d1e8e2;
+}
+
+.Card-img{
+    width: 10em;
+    height: 10em;
+    /* поменять перед оффом */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.Card-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 80px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: fantasy;
+}
+
+.Card-discription{
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    padding: 0 10px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Card-price{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+.Card-button{
+    margin-top: auto;
+}

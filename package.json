@@ -1,5 +1,5 @@
 {
-  "homepage": "https://LiveParadox96.github.io/marketplace_2.0",
+  "homepage": "https://LiveParadox96.github.io",
   "name": "marketplace",
   "version": "0.1.0",
   "private": true,
@@ -25,7 +25,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "publish": "npm run predeply && npm run deploy"
+    "publish": "npm run predeploy && npm run deploy"
   },
   "eslintConfig": {
     "extends": [

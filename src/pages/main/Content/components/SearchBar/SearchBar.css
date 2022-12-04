@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+.CommonInput{
+    border: 1px solid black;
+    border-radius: 0;
+    outline: none;
+    /* height: 40px; */
+}
+
+.input_item{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px
+}
